@@ -1,0 +1,592 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.one_blok{
+    display: flex;
+    flex-direction: column;
+    background-color: #2c1c77;
+    /* height: 750px; */
+    display: flex;
+    justify-content: space-between;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+}
+.logo{
+    color: white;
+    width: 170px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.e{
+    display: flex;    
+    width: 800px;
+}
+.e > a{
+    text-decoration: none;
+    color: white;
+    font-size: 23px;
+    margin-top: 33px;
+    margin-left: 90px;
+}
+#contact {
+    border: 1px solid white;
+    padding: 2px 17px 7px 17px;
+}
+.contentHeader{
+    height:  700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contentHeaderLeft{
+    display: flex;
+    flex-direction: column;
+}
+.contentHeaderLeft > img{
+    width: 850px;
+    margin-left: 70px;
+    z-index: 100;
+}
+.contentHeaderRight{
+    color: white;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 70px;
+    justify-content: space-between;
+}
+.texHeader{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.texHeader span{
+    font-size: 30px;
+    margin-top: 30px;
+    font-family: 'Fjalla One', sans-serif;
+}
+.icons {
+    display: flex;
+    width: 300px;
+    margin-left: -80px;
+}
+.icons > a {
+    margin-left: 90px;
+    color: white;
+}
+.icons img {
+    width: 30px;
+    height: 30px;
+}
+
+
+/*       too_blok         */
+
+
+.too_blok {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 130px;
+}
+.topText {
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+}
+.contentTooBlok {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+}
+.k {
+    background-color: rgb(81, 52, 189);
+    width: 300px;
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 2px;
+    margin-top: 122px;
+}
+.hk {
+    background-color: rgb(231, 235, 15);
+}
+
+.hk2 {
+    background-color:rgb(53, 158, 53);
+}
+
+.k > h2 {
+    font-family: 'Fjalla One', sans-serif;
+}
+.k > p{
+    font-size: 23px;
+   text-align: center; 
+}
+.k > img{
+    width: 80px;
+}
+
+
+
+/*     three_blok        */
+
+
+
+.three_blok{
+    display: flex;
+    /* height: 700px; */
+    flex-wrap: wrap;
+}
+.leftTextBlok {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+.leftTextBlok > p {
+    font-size: 23px;
+    margin-left: 37px;
+ 
+}
+.leftTextBlok > h1 {
+    margin-left: 37px;  
+    font-family: 'Fjalla One', sans-serif;
+
+}
+label {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(2, 2, 119);
+    margin-top: 30px;
+    margin-left: 30px;
+}
+#btnThreeBlok{
+    border: none;
+    width: 250px;
+    height: 45px;
+    align-self: flex-end;
+    margin-top: 38px;
+    margin-right: 70px;
+    font-size: 16px;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    margin-top: -40px;
+    border: 1px solid black;
+}
+.rightImg {
+    font-size: 23px;
+    width: 600px;
+    height: 500px;
+}
+.rightImg > img {
+    width: 700px;
+    margin-top: 100px;
+    margin-right: 100px;
+}
+
+
+/*   four_blok     */
+
+
+.four_blok {
+    display: flex;
+}
+.fourBlokLeft{
+    width: 650px;
+    height: 700px;
+    margin: 50px;
+}
+.fourBlokLeft ul li {
+    font-size: 18px;
+    margin-top: 18px;
+} 
+.fourBlokLeft > p {
+    font-size: 50px;
+    margin-left: 40px;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 600;
+}
+.fourBlokRight {
+    width: 650px;
+    height: 700px;
+    margin: 50px; 
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+.fourBlokRight span{
+    font-size: 21px;
+}
+.one{
+    width: 300px;
+    height: 450px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.bikeThisYear {
+    background-color: #8f20d4;
+    height: 180px;
+    width: 300px; 
+    text-align: center;   
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 2px;
+}
+.too{
+    width: 300px;
+    height: 450px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#bike1{
+    background-color: #4b42b3;
+    border-radius: 2px;
+}
+#bike2{
+    background-color: #c8e028;
+}
+#bike3{
+    background-color: rgb(41, 172, 41);
+    border-radius: 2px;
+}
+#bike4 {
+    background-color: #8840e5;
+}
+
+
+
+/*         footer          */
+
+
+
+footer {
+    background-color: rgb(221, 221, 221);
+    /* height: 230px; */
+    padding: 80px; 
+    display: flex;
+    justify-content: space-evenly;
+}
+.footerImportant span{ 
+    font-size: 16px;
+    margin-top: 23px;
+}
+.footerImportant a{
+    font-size: 21px;
+    margin-top: 12px;
+    text-decoration: none;
+    color: black;
+}
+.footerImportant {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 30px;
+}
+
+
+/*       1400         */
+
+
+@media (max-width: 1400px) {
+    .one_blok{
+        max-width: 1300px;
+    }
+
+    .contentHeaderLeft > img {
+        width: 650px;
+        margin-left: 70px;
+        z-index: 100;
+    }
+    .texHeader span{
+        font-size: 23px;
+        margin-top: 30px;
+        font-family: 'Fjalla One', sans-serif;
+    }
+    .icons {
+        display: flex;
+        width: 100px;
+    }
+    .icons > a {
+        margin-left: 70px;
+        color: white;
+        text-decoration: none;
+    }
+    
+    /*     too_blok        */
+
+        
+    .too_blok {
+        flex-wrap: wrap;
+    }
+    .contentTooBlok {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .k {
+        width: 600px;
+        height: 300px;    
+    }
+    .hk {
+        background-color: rgb(231, 235, 15);
+    }
+    .hk2 {
+        background-color:rgb(53, 158, 53);
+    }
+
+    /*     three_blok        */
+
+
+    .three_blok{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    /*   four_blok     */
+
+    .four_blok {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .fourBlokRight {
+        flex-wrap: wrap;
+    }
+  
+    /*         footer          */
+
+ 
+}
+
+
+ /*        375      */
+
+
+ 
+@media (max-width: 378px) {
+
+        
+    .one_blok{
+        align-items: center;
+        
+    }
+    header{
+        padding: 30px;
+        max-width: 280px;
+        min-height: 130px;
+        padding: 0;
+    }
+    .e{ 
+        flex-wrap: wrap;
+        margin: 30px 0 0 18px;
+    }
+    .e > a{
+        margin: 23px;
+        font-size: 21px;
+    }
+    .contentHeader{
+        flex-direction: column;
+    }
+    .logo {
+        display: none;
+    }
+    #contact {
+        border: none;
+    }
+    .contentHeaderLeft > img{
+        width: 300px;
+        margin: 0;
+        margin-top: 130px;
+    }
+    .contentHeaderRight{
+        color: white;
+        height: 180px;
+        margin: 0;
+        margin-bottom: 140px;
+    }
+    .texHeader{
+        margin: 0;
+    }
+    .texHeader span{
+        font-size: 24px;
+        margin: 0;
+        font-family: 'Fjalla One', sans-serif;
+        margin-top: 8px;
+    }
+    .icons {
+        display: flex;
+        margin: 0;
+    }
+    .icons > a {
+        margin-left: 43px;
+        margin-top: 130px;
+    }
+
+
+    
+    /*     too_blok        */
+
+
+    .too_blok {
+        flex-wrap: wrap;
+    }
+    .contentTooBlok {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: -30px;
+        margin-left: -80px;
+    }
+    .k {
+        width: 300px;
+        height: 300px;    
+    }
+    .hk {
+        background-color: rgb(231, 235, 15);
+    }
+    .hk2 {
+        background-color:rgb(53, 158, 53);
+    }
+    .topText h1 {
+        margin-left: -80px;
+    }
+    /*     three_blok        */
+
+
+    
+
+.leftTextBlok > p {
+    font-size: 23px;
+    height: 980px; 
+}
+label {
+    display: none;
+}
+#btnThreeBlok{
+    border: none;
+    width: 180px;
+    height: 45px;
+    align-self: flex-end;
+    font-size: 16px;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    border: 1px solid black;   
+}
+.rightImg {
+    font-size: 23px;
+    width: 160px;
+    height: 80px;
+    height: auto;
+
+}
+.rightImg > img {
+    width: 160px;
+    margin-top: 100px;
+    margin-right: 100px;
+}
+
+    /*   four_blok     */
+
+    
+    .four_blok {
+        display: flex;
+    }
+    .fourBlokLeft{
+        /* width: 650px; */
+        /* height: 700px; */
+        /* margin: 50px; */
+        height: auto;
+        
+    }
+    .fourBlokLeft ul li {
+        font-size: 18px;
+        margin-top: 18px;
+    } 
+    .fourBlokLeft > p {
+        font-size: 30px;
+        /* margin-left: 40px; */
+        font-family: 'Fjalla One', sans-serif;
+        font-weight: 600;
+    }
+    .fourBlokRight {
+        /* width: 350px; */
+        /* height: 700px; */
+        height: auto;
+        /* margin: 50px;  */
+        color: white;
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .fourBlokRight span{
+        font-size: 21px;
+    }
+    .one{
+        width: 300px;
+        height: 450px;
+        margin-top: 80px;
+        margin-left: -3px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .bikeThisYear {
+        background-color: #8f20d4;
+        height: 180px;
+        width: 300px; 
+        text-align: center;   
+        padding-left: 5px;
+        padding-right: 5px;
+        border-radius: 2px;
+    }
+    .too{
+        width: 300px;
+        height: 450px;
+        margin-left: -3px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 60px;
+    }
+    #bike1{
+        background-color: #4b42b3;
+        border-radius: 2px;
+    }
+    #bike2{
+        background-color: #c8e028;
+        border-radius: 2px;
+    }
+    #bike3{
+        background-color: rgb(41, 172, 41);
+        border-radius: 2px;
+    }
+    #bike4 {
+        background-color: #8840e5;
+        border-radius: 2px;
+    }
+
+    /*         footer          */
+
+    footer {
+        /* height: 240px;    */
+        flex-wrap: wrap;   
+        padding: 80px; 
+    }
+}

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+   
+<title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="one_blok">
+            <header>
+                <div class="logo"> <span>Polygon</span> </div>
+                <div class="e">
+                    <a class="hoverButton" href="#description">описание</a>
+                    <a class="hoverButton" href="#bikes">байки</a>
+                    <a class="hoverButton" href="#price">цены</a>
+                    <a id="contact" href="#foot">контакты</a>
+                </div>
+            </header>
+            <div class="contentHeader">
+                <div class="contentHeaderLeft">
+                    <img src="./img/bike.png" alt="">
+                </div>
+                <div class="contentHeaderRight">
+                    <div class="texHeader">
+                        <span>Цена 70 000 грн.</span>
+                        <span>Манетки SL-M7100-R SLX</span>
+                        <span>Цепь KMC X12 12SPEED</span>      
+                    </div>
+                    <div class="icons">
+                       <a href=""><img src="./img/whatsapp.png" alt=""></a>
+                       <a href=""><img src="./img/instagram.png" alt=""></a>
+                       <a href=""><img src="./img/twitter.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="too_blok">
+            <div class="topText"> 
+                <h1>Бери байк и коти по горам</h1>
+            </div>
+            <div class="contentTooBlok">
+                <div class="k">
+                    <img src="./img/ic1.png"  alt="">
+                    <h2>Скрость</h2>
+                    <p>Это важно велосипеды с отличными скоростями.</p>
+                </div>
+                <div class="k hk">
+                    <img src="./img/ic2.png" alt="">
+                    <h2>Спорт</h2>
+                    <p>Спорт неотьемлемая часть жизни человека.</p>
+                </div>
+                <div class="k hk2">
+                    <img src="./img/ic3.png" alt="">
+                    <h2>Путишествие</h2>
+                    <p>С велосипедом можно добратся куда дальше</p>
+                </div>
+            </div>
+        </div>
+        <div class="three_blok">
+            <div class="leftTextBlok">
+                <h1 id="bikes" >Polygon bike</h1>
+                <p>Велосипеды Polygon - это творение индонезийских специалистов, которые на своих производственных мощностях производят продукцию для других известных в мире брендов. Особенной популярностью пользуются горные двухподвесы, на которых занимаются призовые места в самых престижных и экстремальных соревнованиях. К примеру на велосипедах Polygon не единожды одерживалась победа на Red Bull Rampage - самом экстремальном соревновании. Имея собственные производственные мощности и огромный опыт работы с мировыми лидерами в велоиндустрии, команда Polygon создает действительно качественные и надежные велосипеды. В последние несколько лет разработчики значительно шагнули вперед, выпустив городские, шоссейные, циклокроссовые. </p>
+                <label for="country">Выбрать байк</label>
+                <select id="btnThreeBlok" btnThreeBlok onclick="if(this.value)(fsrc(this.value))" >
+                    <option  value="./img/1.jpg">HEIST X2 </option>
+                    <option value="./img/2.jpg" >XTRADA 7 </option>
+                    <option value="./img/3.jpg" >ZETA 2 </option>
+                    <option value="./img/4.jpg" >ENTIAT TR6 27,5</option>
+                </select>
+            </div>
+            <div class="rightImg" >
+                <img id="image" src="./img/4.jpg">
+            </div>
+        </div>
+        <div class="four_blok">
+            <div class="fourBlokLeft">
+                <p id="description">Характеристики </p>
+                <ul>
+                    <li>Рама - ALX AM / Enduro Alloy Boost frame 170мм travel (27.5";) / 160мм travel (29";), Tapered headtube, Internal Routing </li>
+                    <li>Вилка Fox Performance 36 Float 170мм (27.5";) 160мм (29";) Travel, Tapered Steerer, 15мм thru Axle, 44мм (27.5";) & 51мм (29";) Offsets </li>
+                    <li>Задний амортизатор Fox Performance Float DPX2 E2E Air shock, 3 Position Compression Lever, Rebound Adjustment</li>
+                    <li>Руль Race Face Affect, алюминиевый, W: 780мм, BB: 35мм </li>
+                    <li>Седло Entity Xtent Saddle </li>
+                    <li>Педали Alloy Flat </li>
+                    <li>Переключения Shimano XT SL-M8100, 12-скоростей </li>
+                    <li>Тормоза TRP Slate 4-поршневые гидравлические </li>
+                    <li>Покрышки WTB Vigilante 27.5x2.6" / 29x2.3", TCS Tough / High Grip, Tubeless Ready </li>
+                </ul>
+            </div>
+            <div class="fourBlokRight">
+                <div class="one" id="price">
+                    <div class="bikeThisYear" id="bike1">
+                        <h1>HEIST X2</h1>
+                        <p>Дорожный и горный велосипед для утренних поездок на работу </p>
+                        <span>цена 19 773 грн.</span>
+                    </div>
+                    <div class="bikeThisYear"  id="bike2">
+                        <h1>XTRADA 7</h1>
+                        <p>Горный велосипед  для езды по местности разнообразного рельефа. </p>
+                        <span>цена 29 398 грн.</span>
+                    </div>
+                </div>
+                <div class="too">
+                    <div class="bikeThisYear" id="bike3">
+                        <h1>ZETA 2</h1>
+                        <p>Mаневренный, легкий и надежный городской байк для прогулок.</p>
+                        <span>цена 16 748 грн.</span>
+                    </div>
+                    <div class="bikeThisYear" id="bike4">
+                        <h1>ENTIAT TR6 27,5</h1>
+                        <p>Горный велосипед для тех не ездит по дорогам</p>
+                        <span>цена 21 743 грн.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer id="foot">
+            <div class="footerImportant">
+                <span>Важно</span>
+                <a href="#bikes">Polygon</a>
+                <a href="#contact">Соц сети</a>
+                <a href="#price">Цены</a>
+            </div>
+            <div class="footerImportant">
+                <span>номера для связи </span>
+                <span>+380 567 764 567</span>
+                <span>+380 547 569 567</span>
+                <span>+380 564 364 567</span>
+            </div>
+            <div class="footerImportant" >
+                <span>Дополнительно</span>
+                <span>Емеил Polygon@gmail.com</span>
+                <span>Адрес ул Барикадна 23 <br> г. Запорожье</span>
+                <span>Время работы 8:00 - 19:00</span>
+            </div>
+        </footer>
+    </div>
+    
+    <script src="./script/js.js"></script>
+</body>
+</html>
